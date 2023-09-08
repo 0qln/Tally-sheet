@@ -1,0 +1,14 @@
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\Tally sheet.exe
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\Tally sheet.deps.json
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\Tally sheet.runtimeconfig.json
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\Tally sheet.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\Tally sheet.pdb
+D:\Programmmieren\Projects\StrichListe\obj\Release\net7.0\Tally sheet.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programmmieren\Projects\StrichListe\obj\Release\net7.0\Tally sheet.AssemblyInfoInputs.cache
+D:\Programmmieren\Projects\StrichListe\obj\Release\net7.0\Tally sheet.AssemblyInfo.cs
+D:\Programmmieren\Projects\StrichListe\obj\Release\net7.0\Tally sheet.csproj.CoreCompileInputs.cache
+D:\Programmmieren\Projects\StrichListe\obj\Release\net7.0\Tally sheet.dll
+D:\Programmmieren\Projects\StrichListe\obj\Release\net7.0\refint\Tally sheet.dll
+D:\Programmmieren\Projects\StrichListe\obj\Release\net7.0\Tally sheet.pdb
+D:\Programmmieren\Projects\StrichListe\obj\Release\net7.0\Tally sheet.genruntimeconfig.cache
+D:\Programmmieren\Projects\StrichListe\obj\Release\net7.0\ref\Tally sheet.dll

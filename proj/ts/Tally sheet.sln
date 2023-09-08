@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tally sheet", "Tally sheet.csproj", "{51FC8EDA-7625-45D8-9DD1-6B1FE2124ABC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51FC8EDA-7625-45D8-9DD1-6B1FE2124ABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51FC8EDA-7625-45D8-9DD1-6B1FE2124ABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51FC8EDA-7625-45D8-9DD1-6B1FE2124ABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51FC8EDA-7625-45D8-9DD1-6B1FE2124ABC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E298BB9E-0A4D-4C3A-9B39-6EF46C7A526A}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "0AdiLLhuPcNHesIJ4pBa/cHiTACTi2tyf7qhepWNoCpj3cg8LaZl4HrrkhqM3bhFmLQE6GBM1sAW7PQntKT25w==",
+  "success": true,
+  "projectFilePath": "D:\\Programmmieren\\Projects\\Tally sheet\\proj\\ts\\Tally sheet.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.10\\microsoft.aspnetcore.app.runtime.win-x64.7.0.10.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.10\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.10.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.10\\microsoft.netcore.app.runtime.win-x64.7.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}

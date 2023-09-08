@@ -1,0 +1,394 @@
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\Tally sheet.exe
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\Tally sheet.deps.json
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\Tally sheet.runtimeconfig.json
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\Tally sheet.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\Tally sheet.pdb
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\Microsoft.CSharp.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\Microsoft.VisualBasic.Core.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\Microsoft.VisualBasic.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\Microsoft.Win32.Primitives.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\Microsoft.Win32.Registry.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.AppContext.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Buffers.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Collections.Concurrent.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Collections.Immutable.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Collections.NonGeneric.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Collections.Specialized.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Collections.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.ComponentModel.Annotations.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.ComponentModel.DataAnnotations.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.ComponentModel.EventBasedAsync.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.ComponentModel.Primitives.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.ComponentModel.TypeConverter.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.ComponentModel.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Configuration.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Console.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Core.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Data.Common.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Data.DataSetExtensions.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Data.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Diagnostics.Contracts.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Diagnostics.Debug.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Diagnostics.DiagnosticSource.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Diagnostics.FileVersionInfo.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Diagnostics.Process.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Diagnostics.StackTrace.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Diagnostics.TextWriterTraceListener.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Diagnostics.Tools.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Diagnostics.TraceSource.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Diagnostics.Tracing.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Drawing.Primitives.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Drawing.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Dynamic.Runtime.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Formats.Asn1.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Formats.Tar.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Globalization.Calendars.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Globalization.Extensions.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Globalization.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.IO.Compression.Brotli.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.IO.Compression.FileSystem.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.IO.Compression.ZipFile.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.IO.Compression.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.IO.FileSystem.AccessControl.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.IO.FileSystem.DriveInfo.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.IO.FileSystem.Primitives.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.IO.FileSystem.Watcher.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.IO.FileSystem.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.IO.IsolatedStorage.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.IO.MemoryMappedFiles.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.IO.Pipes.AccessControl.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.IO.Pipes.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.IO.UnmanagedMemoryStream.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.IO.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Linq.Expressions.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Linq.Parallel.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Linq.Queryable.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Linq.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Memory.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Net.Http.Json.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Net.Http.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Net.HttpListener.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Net.Mail.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Net.NameResolution.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Net.NetworkInformation.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Net.Ping.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Net.Primitives.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Net.Quic.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Net.Requests.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Net.Security.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Net.ServicePoint.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Net.Sockets.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Net.WebClient.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Net.WebHeaderCollection.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Net.WebProxy.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Net.WebSockets.Client.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Net.WebSockets.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Net.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Numerics.Vectors.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Numerics.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.ObjectModel.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Private.CoreLib.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Private.DataContractSerialization.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Private.Uri.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Private.Xml.Linq.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Private.Xml.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Reflection.DispatchProxy.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Reflection.Emit.ILGeneration.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Reflection.Emit.Lightweight.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Reflection.Emit.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Reflection.Extensions.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Reflection.Metadata.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Reflection.Primitives.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Reflection.TypeExtensions.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Reflection.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Resources.Reader.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Resources.ResourceManager.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Resources.Writer.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Runtime.CompilerServices.Unsafe.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Runtime.CompilerServices.VisualC.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Runtime.Extensions.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Runtime.Handles.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Runtime.InteropServices.JavaScript.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Runtime.InteropServices.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Runtime.Intrinsics.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Runtime.Loader.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Runtime.Numerics.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Runtime.Serialization.Formatters.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Runtime.Serialization.Json.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Runtime.Serialization.Primitives.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Runtime.Serialization.Xml.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Runtime.Serialization.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Runtime.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Security.AccessControl.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Security.Claims.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Security.Cryptography.Algorithms.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Security.Cryptography.Cng.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Security.Cryptography.Csp.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Security.Cryptography.Encoding.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Security.Cryptography.OpenSsl.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Security.Cryptography.Primitives.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Security.Cryptography.X509Certificates.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Security.Cryptography.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Security.Principal.Windows.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Security.Principal.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Security.SecureString.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Security.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.ServiceModel.Web.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.ServiceProcess.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Text.Encoding.CodePages.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Text.Encoding.Extensions.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Text.Encoding.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Text.Encodings.Web.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Text.Json.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Text.RegularExpressions.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Threading.Channels.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Threading.Overlapped.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Threading.Tasks.Dataflow.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Threading.Tasks.Extensions.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Threading.Tasks.Parallel.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Threading.Tasks.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Threading.Thread.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Threading.ThreadPool.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Threading.Timer.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Threading.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Transactions.Local.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Transactions.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.ValueTuple.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Web.HttpUtility.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Web.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Windows.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Xml.Linq.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Xml.ReaderWriter.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Xml.Serialization.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Xml.XDocument.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Xml.XPath.XDocument.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Xml.XPath.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Xml.XmlDocument.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Xml.XmlSerializer.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.Xml.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\WindowsBase.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\mscorlib.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\netstandard.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\Microsoft.DiaSymReader.Native.x86.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\System.IO.Compression.Native.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\clretwrc.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\clrgc.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\clrjit.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\coreclr.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\createdump.exe
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\hostfxr.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\hostpolicy.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\mscordaccore.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\mscordaccore_x86_x86_7.0.1023.36312.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\mscordbi.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\mscorrc.dll
+D:\Programmmieren\Projects\StrichListe\bin\Release\net7.0\win-x86\msquic.dll
+D:\Programmmieren\Projects\StrichListe\obj\Release\net7.0\win-x86\Tally sheet.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programmmieren\Projects\StrichListe\obj\Release\net7.0\win-x86\Tally sheet.AssemblyInfoInputs.cache
+D:\Programmmieren\Projects\StrichListe\obj\Release\net7.0\win-x86\Tally sheet.AssemblyInfo.cs
+D:\Programmmieren\Projects\StrichListe\obj\Release\net7.0\win-x86\Tally sheet.csproj.CoreCompileInputs.cache
+D:\Programmmieren\Projects\StrichListe\obj\Release\net7.0\win-x86\Tally sheet.csproj.CopyComplete
+D:\Programmmieren\Projects\StrichListe\obj\Release\net7.0\win-x86\Tally sheet.dll
+D:\Programmmieren\Projects\StrichListe\obj\Release\net7.0\win-x86\refint\Tally sheet.dll
+D:\Programmmieren\Projects\StrichListe\obj\Release\net7.0\win-x86\Tally sheet.pdb
+D:\Programmmieren\Projects\StrichListe\obj\Release\net7.0\win-x86\Tally sheet.genruntimeconfig.cache
+D:\Programmmieren\Projects\StrichListe\obj\Release\net7.0\win-x86\ref\Tally sheet.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\Tally sheet.exe
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\Tally sheet.deps.json
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\Tally sheet.runtimeconfig.json
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\Tally sheet.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\Tally sheet.pdb
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\Microsoft.CSharp.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\Microsoft.VisualBasic.Core.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\Microsoft.VisualBasic.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\Microsoft.Win32.Primitives.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\Microsoft.Win32.Registry.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.AppContext.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Buffers.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Collections.Concurrent.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Collections.Immutable.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Collections.NonGeneric.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Collections.Specialized.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Collections.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.ComponentModel.Annotations.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.ComponentModel.DataAnnotations.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.ComponentModel.EventBasedAsync.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.ComponentModel.Primitives.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.ComponentModel.TypeConverter.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.ComponentModel.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Configuration.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Console.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Core.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Data.Common.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Data.DataSetExtensions.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Data.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Diagnostics.Contracts.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Diagnostics.Debug.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Diagnostics.DiagnosticSource.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Diagnostics.FileVersionInfo.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Diagnostics.Process.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Diagnostics.StackTrace.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Diagnostics.TextWriterTraceListener.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Diagnostics.Tools.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Diagnostics.TraceSource.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Diagnostics.Tracing.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Drawing.Primitives.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Drawing.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Dynamic.Runtime.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Formats.Asn1.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Formats.Tar.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Globalization.Calendars.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Globalization.Extensions.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Globalization.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.IO.Compression.Brotli.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.IO.Compression.FileSystem.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.IO.Compression.ZipFile.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.IO.Compression.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.IO.FileSystem.AccessControl.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.IO.FileSystem.DriveInfo.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.IO.FileSystem.Primitives.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.IO.FileSystem.Watcher.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.IO.FileSystem.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.IO.IsolatedStorage.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.IO.MemoryMappedFiles.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.IO.Pipes.AccessControl.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.IO.Pipes.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.IO.UnmanagedMemoryStream.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.IO.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Linq.Expressions.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Linq.Parallel.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Linq.Queryable.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Linq.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Memory.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Net.Http.Json.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Net.Http.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Net.HttpListener.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Net.Mail.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Net.NameResolution.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Net.NetworkInformation.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Net.Ping.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Net.Primitives.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Net.Quic.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Net.Requests.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Net.Security.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Net.ServicePoint.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Net.Sockets.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Net.WebClient.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Net.WebHeaderCollection.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Net.WebProxy.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Net.WebSockets.Client.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Net.WebSockets.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Net.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Numerics.Vectors.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Numerics.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.ObjectModel.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Private.CoreLib.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Private.DataContractSerialization.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Private.Uri.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Private.Xml.Linq.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Private.Xml.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Reflection.DispatchProxy.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Reflection.Emit.ILGeneration.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Reflection.Emit.Lightweight.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Reflection.Emit.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Reflection.Extensions.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Reflection.Metadata.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Reflection.Primitives.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Reflection.TypeExtensions.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Reflection.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Resources.Reader.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Resources.ResourceManager.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Resources.Writer.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Runtime.CompilerServices.Unsafe.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Runtime.CompilerServices.VisualC.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Runtime.Extensions.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Runtime.Handles.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Runtime.InteropServices.JavaScript.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Runtime.InteropServices.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Runtime.Intrinsics.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Runtime.Loader.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Runtime.Numerics.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Runtime.Serialization.Formatters.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Runtime.Serialization.Json.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Runtime.Serialization.Primitives.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Runtime.Serialization.Xml.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Runtime.Serialization.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Runtime.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Security.AccessControl.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Security.Claims.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Security.Cryptography.Algorithms.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Security.Cryptography.Cng.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Security.Cryptography.Csp.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Security.Cryptography.Encoding.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Security.Cryptography.OpenSsl.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Security.Cryptography.Primitives.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Security.Cryptography.X509Certificates.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Security.Cryptography.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Security.Principal.Windows.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Security.Principal.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Security.SecureString.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Security.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.ServiceModel.Web.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.ServiceProcess.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Text.Encoding.CodePages.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Text.Encoding.Extensions.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Text.Encoding.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Text.Encodings.Web.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Text.Json.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Text.RegularExpressions.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Threading.Channels.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Threading.Overlapped.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Threading.Tasks.Dataflow.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Threading.Tasks.Extensions.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Threading.Tasks.Parallel.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Threading.Tasks.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Threading.Thread.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Threading.ThreadPool.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Threading.Timer.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Threading.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Transactions.Local.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Transactions.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.ValueTuple.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Web.HttpUtility.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Web.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Windows.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Xml.Linq.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Xml.ReaderWriter.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Xml.Serialization.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Xml.XDocument.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Xml.XPath.XDocument.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Xml.XPath.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Xml.XmlDocument.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Xml.XmlSerializer.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.Xml.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\WindowsBase.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\mscorlib.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\netstandard.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\Microsoft.DiaSymReader.Native.x86.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\System.IO.Compression.Native.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\clretwrc.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\clrgc.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\clrjit.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\coreclr.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\createdump.exe
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\hostfxr.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\hostpolicy.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\mscordaccore.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\mscordaccore_x86_x86_7.0.1023.36312.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\mscordbi.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\mscorrc.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\bin\Release\net7.0\win-x86\msquic.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\obj\Release\net7.0\win-x86\Tally sheet.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programmmieren\Projects\Tally sheet\proj\ts\obj\Release\net7.0\win-x86\Tally sheet.AssemblyInfoInputs.cache
+D:\Programmmieren\Projects\Tally sheet\proj\ts\obj\Release\net7.0\win-x86\Tally sheet.AssemblyInfo.cs
+D:\Programmmieren\Projects\Tally sheet\proj\ts\obj\Release\net7.0\win-x86\Tally sheet.csproj.CoreCompileInputs.cache
+D:\Programmmieren\Projects\Tally sheet\proj\ts\obj\Release\net7.0\win-x86\Tally sheet.csproj.CopyComplete
+D:\Programmmieren\Projects\Tally sheet\proj\ts\obj\Release\net7.0\win-x86\Tally sheet.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\obj\Release\net7.0\win-x86\refint\Tally sheet.dll
+D:\Programmmieren\Projects\Tally sheet\proj\ts\obj\Release\net7.0\win-x86\Tally sheet.pdb
+D:\Programmmieren\Projects\Tally sheet\proj\ts\obj\Release\net7.0\win-x86\Tally sheet.genruntimeconfig.cache
+D:\Programmmieren\Projects\Tally sheet\proj\ts\obj\Release\net7.0\win-x86\ref\Tally sheet.dll
