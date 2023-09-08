@@ -1,9 +1,11 @@
-﻿public static class Programm
+﻿
+
+public static class Programm
 {
-    private static Dictionary<string, int> _values;
+    private static Dictionary<string, int> _values = new();
     private static readonly string AppData = Path.Combine(Environment.GetFolderPath(
     Environment.SpecialFolder.ApplicationData), "Tally sheet");
-    private static string _file;
+    private static string _file = string.Empty;
 
     public static void Main(string[] args)
     {
@@ -66,17 +68,14 @@
     private static void Init()
     {
         if (!Directory.Exists(AppData))
-             Directory.CreateDirectory(AppData);
-        
+            Directory.CreateDirectory(AppData);
 
-        Console.WriteLine("Select file or create a new one:");
-        foreach (var item in Directory.GetFiles(AppData))
-        {
-            Console.WriteLine($"{item}");
-        };
-        Console.Write("\n");
+        SelectSheet();
+        InitDict();
+    }
 
-        _file = Console.ReadLine() ?? "";
+    private static void InitDict()
+    {
         if (File.Exists(_file))
         {
             var lines = File.ReadAllLines(_file);
@@ -86,7 +85,7 @@
             {
                 var key = Word(line);
                 var value = Count(line);
-                if  (_values.ContainsKey(key)) _values[key] += value; 
+                if (_values.ContainsKey(key)) _values[key] += value;
                 else _values.Add(key, value);
             }
         }
@@ -98,13 +97,122 @@
         }
     }
 
-    private static void PrintValues()
+    private static void SelectSheet()
+    {
+        var selected = 0;
+        var quit = false;
+        do
+        {
+            Console.Clear();
+            Console.WriteLine("Select file or create a new one: [arrow keys]");
+            int count = PrintSheets(out var selection, selected);
+            Console.Write("\n");
+
+            var s = ReadLine(selection, out var key);
+
+            switch (key)
+            {
+                case ConsoleKey.Enter: quit = true ; break; // confirm
+                case ConsoleKey.UpArrow: selected--; break; // select one up
+                case ConsoleKey.DownArrow: selected++; break; // select one up
+            }
+
+            selected = Math.Clamp(selected, 0, count - 1);
+            _file = s;
+        }
+        while (!quit);
+    }
+
+    private static string ReadLine(string Default, out ConsoleKey result)
+    {
+        result = (ConsoleKey)(-1);
+        Console.Write(Default);
+        List<char> chars = new List<char>();
+        if (!string.IsNullOrEmpty(Default))
+            chars.AddRange(Default.ToCharArray());
+
+        bool quit = false;
+        while (!quit)
+        {
+            var info = Console.ReadKey(true);
+
+            switch (info.Key)
+            {
+                case ConsoleKey.Backspace:
+                    chars.RemoveAt(Console.CursorLeft-1);
+                    Console.CursorLeft--;
+                    Reprint();
+                    break;
+
+                case ConsoleKey.LeftArrow:
+                    Console.CursorLeft--;
+                    break;
+
+                case ConsoleKey.RightArrow:
+                    Console.CursorLeft++;
+                    break;
+
+                case ConsoleKey.Enter:
+                case ConsoleKey.DownArrow:
+                case ConsoleKey.UpArrow:
+                    result = info.Key;
+                    quit = true;
+                    break;
+
+                default:
+                    Console.CursorLeft++;
+                    chars.Insert(Console.CursorLeft-1, info.KeyChar);
+                    Reprint();
+                    break;
+
+            }            
+        }
+
+        void Reprint()
+        {
+            int x = Console.CursorLeft, y = Console.CursorTop;
+            ClearCurrentConsoleLine();
+            Console.WriteLine(new string(chars.ToArray()));
+            Console.SetCursorPosition(x, y);
+        }
+
+        if ((int)result == -1) throw new Exception("How the fuck did you get here??");
+        
+        return new string(chars.ToArray());
+    }
+    private static void ClearCurrentConsoleLine()
+    {
+        int currentLineCursor = Console.CursorTop;
+        Console.SetCursorPosition(0, Console.CursorTop);
+        Console.Write(new string(' ', Console.WindowWidth));
+        Console.SetCursorPosition(0, currentLineCursor);
+    }
+    private static int PrintSheets(out string selection, int selected = -1)
+    {
+        selection = "";
+        int i = -1;
+        var files = Directory.GetFiles(AppData);
+        foreach (var item in files)
+        {
+            if (++i == selected)
+            {
+                selection = item.ToString();
+                Console.Write(" > ");
+            }
+            Console.WriteLine($"{item}");
+        };
+        return files.Length;
+    }
+
+    private static void PrintValues(int selected = -1)
     {
         if (_values.Count == 0) return;
 
         int maxValueWidith = _values.Max(x => x.ToString().Length);
+        int i = -1;
         foreach (var item in _values)
         {
+            if (++i == selected) Console.Write(" > ");
             Console.WriteLine($"{item.Key.ToString().PadRight(maxValueWidith)} {item.Value}");
         }
     }
