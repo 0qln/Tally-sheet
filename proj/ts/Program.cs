@@ -139,17 +139,20 @@ public static class Programm
             switch (info.Key)
             {
                 case ConsoleKey.Backspace:
-                    chars.RemoveAt(Console.CursorLeft-1);
-                    Console.CursorLeft--;
-                    Reprint();
+                    if (Console.CursorLeft >= 1)
+                    {
+                        chars.RemoveAt(Console.CursorLeft-1);
+                        Console.CursorLeft--;
+                        Reprint();
+                    }
                     break;
 
                 case ConsoleKey.LeftArrow:
-                    Console.CursorLeft--;
+                    if (Console.CursorLeft >= 1) Console.CursorLeft--;
                     break;
 
                 case ConsoleKey.RightArrow:
-                    Console.CursorLeft++;
+                    if (Console.CursorLeft < chars.Count) Console.CursorLeft++;
                     break;
 
                 case ConsoleKey.Enter:
@@ -164,7 +167,6 @@ public static class Programm
                     chars.Insert(Console.CursorLeft-1, info.KeyChar);
                     Reprint();
                     break;
-
             }            
         }
 
