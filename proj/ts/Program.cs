@@ -19,7 +19,8 @@ class A
 
 public static class Program
 {
-    public static Dictionary<string, int> Values { get; private set; } = new();
+    public static List<string> Keys { get; private set; } = new();
+    public static List<int> Values { get; private set; } = new();
     private static readonly string AppData = Path.Combine(Environment.GetFolderPath(
         Environment.SpecialFolder.ApplicationData), "Tally sheet");
     public static string File { get; private set; } = string.Empty;
@@ -85,20 +86,27 @@ public static class Program
         {
             var lines = System.IO.File.ReadAllLines(File);
 
-            Values = new Dictionary<string, int>(lines.Length);
-            foreach (var line in lines)
+            Keys = new List<string>(lines.Length);
+            Values = new List<int>(lines.Length);
+
+            for (int i = 0; i < lines.Length; i++)
             {
+                var line = lines[i];
                 var key = Word(line);
                 var value = Count(line);
-                if (Values.ContainsKey(key)) Values[key] += value;
-                else Values.Add(key, value);
+
+                if (Keys.Contains(key)) Values[Keys.IndexOf(key)] += value;
+                else
+                {
+                    Keys.Add(key);
+                    Values.Add(value);
+                }
             }
         }
         else
         {
-
-            using var _ = System.IO.File.Create(File);
-            Values = new Dictionary<string, int>();
+            using var _ = 
+                System.IO.File.Create(File);
         }
     }
 
@@ -216,11 +224,10 @@ public static class Program
         if (Values.Count == 0) return;
 
         int maxValueWidith = Values.Max(x => x.ToString().Length);
-        int i = -1;
-        foreach (var item in Values)
+        for (int i = 0; i < Values.Count; i++)
         {
-            if (++i == selected) Console.Write(" > ");
-            Console.WriteLine($"{item.Key.ToString().PadRight(maxValueWidith)} {item.Value}");
+            if (i == selected) Console.Write(" > ");
+            Console.WriteLine($"{Keys[i].PadRight(maxValueWidith)} {Values[i]}");
         }
     }
 

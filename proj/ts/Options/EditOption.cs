@@ -1,4 +1,5 @@
-﻿using Tally_sheet.Exceptions;
+﻿using System.Windows.Markup;
+using Tally_sheet.Exceptions;
 
 namespace Tally_sheet
 {
@@ -64,11 +65,15 @@ namespace Tally_sheet
             public override void Apply(OptionBase option)
             {
                 ((EditOption)option)._mode = delegate {
-                    if (Program.Values.ContainsKey(Value))                    
-                        Program.Values[Value] += ((EditOption)option)._count;
+                    int index = Program.Keys.IndexOf(Value);
+                    if (Program.Keys.Contains(Value))                    
+                        Program.Values[index] += ((EditOption)option)._count;
                     
-                    else                    
-                        Program.Values.Add(Value, ((EditOption)option)._count);
+                    else
+                    {
+                        Program.Keys.Add(Value);
+                        Program.Values.Add(1);
+                    }
                     
                 };
                 option.TargetResult = "Addition";
@@ -84,13 +89,20 @@ namespace Tally_sheet
             public override void Apply(OptionBase option)
             {
                 ((EditOption)option)._mode = delegate {
-                    if (Program.Values.ContainsKey(Value) &&
-                        Program.Values[Value] >= ((EditOption)option)._count)                    
-                        Program.Values[Value] -= ((EditOption)option)._count;
-                    
-                    if (Program.Values[Value] == 0)                    
-                        Program.Values.Remove(Value);
-                    
+                    int index = Program.Keys.IndexOf(Value);
+                    int count = ((EditOption)option)._count;
+                    while (--count >= 0) 
+                    {
+                        if (!Program.Keys.Contains(Value)) break;
+
+                        --Program.Values[index];
+
+                        if (Program.Values[index] == 0)
+                        {
+                            Program.Keys.RemoveAt(index);
+                            Program.Values.RemoveAt(index);
+                        }
+                    }
                 };
                 option.TargetResult = "Removal";
             }
@@ -105,7 +117,9 @@ namespace Tally_sheet
             public override void Apply(OptionBase option)
             {
                 ((EditOption)option)._mode = delegate {
-                    Program.Values.Remove(Value);
+                    int index = Program.Keys.IndexOf(Value);
+                    Program.Keys.RemoveAt(index);
+                    Program.Values.RemoveAt(index);
                 };
                 option.TargetResult = "Deletion";
             }

@@ -46,13 +46,19 @@ namespace Tally_sheet
 
         public class ClearArgument : ArgumentBase<object>
         {
-            public ClearArgument(object val) : base(val)
-            {
-            }
+            public ClearArgument(object val) : base(val) { }
+            public override void Apply(OptionBase option) { /* just skip */  }
+        }
+
+        public class SortArgument : ArgumentBase<object>
+        {
+            public SortArgument(object val) : base(val) { }
 
             public override void Apply(OptionBase option)
             {
-                // just skip 
+                ((ViewOption)option)._mode = delegate
+                {
+                };
             }
         }
     }

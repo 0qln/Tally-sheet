@@ -1,4 +1,5 @@
-﻿using Tally_sheet.Exceptions;
+﻿using System.Collections.Generic;
+using Tally_sheet.Exceptions;
 
 namespace Tally_sheet
 {
@@ -15,9 +16,9 @@ namespace Tally_sheet
             try
             {
                 var content = new List<string>();
-                foreach (var keyValuePair in Program.Values)
+                for (int i = 0; i < Program.Keys.Count; i++)
                 {
-                    content.Add($"{keyValuePair.Key} {keyValuePair.Value}");
+                    content.Add($"{Program.Keys[i]} {Program.Values[i]}");
                 }
                 File.WriteAllLines(Program.File, content);
 
