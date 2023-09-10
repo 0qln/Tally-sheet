@@ -12,6 +12,8 @@ public static class Program
 
     public static void Main(string[] args)
     {
+        new Tally_sheet.Assembly().EnsureValuePreserved();
+
         Startup();
 
         // Main application

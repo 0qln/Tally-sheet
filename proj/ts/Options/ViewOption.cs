@@ -52,28 +52,6 @@ namespace Tally_sheet
             public ClearArgument(object val) : base(val) { }
             public override void Apply(OptionBase option) { /* just skip */  }
         }
-
-        public class ValueSortArgument : ArgumentBase<bool>
-        {
-            public ValueSortArgument(bool ascending) : base(ascending) { }
-
-            public override void Apply(OptionBase option)
-            {
-                ((ViewOption)option)._mode = delegate
-                {
-                    var keys = Program.Keys.ToArray();
-                    var vals = Program.Values.ToArray();
-                    Array.Sort(vals, keys);
-                    if (Value)
-                    {
-                        Array.Reverse(vals);
-                        Array.Reverse(keys);
-                    }
-                    Program.Keys = keys.ToList();
-                    Program.Values = vals.ToList();
-                };
-            }
-        }
         public class KeySortArgument : ArgumentBase<bool>
         {
             public KeySortArgument(bool ascending) : base(ascending) { }
