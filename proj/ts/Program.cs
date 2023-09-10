@@ -1,39 +1,17 @@
 ﻿using Tally_sheet;
 using Tally_sheet.Exceptions;
 
-class A
-{
-    public int num1;
-    public int num2;
-
-    private int _num3;
-
-    public A()
-    {
-        num1 = 1;
-        num2 = 2;
-
-        _num3 = 3;
-    }
-}
 
 public static class Program
 {
-    public static List<string> Keys { get; private set; } = new();
-    public static List<int> Values { get; private set; } = new();
+    public static List<string> Keys { get; set; } = new();
+    public static List<int> Values { get; set; } = new();
     private static readonly string AppData = Path.Combine(Environment.GetFolderPath(
         Environment.SpecialFolder.ApplicationData), "Tally sheet");
     public static string File { get; private set; } = string.Empty;
 
     public static void Main(string[] args)
     {
-        //foreach (var field in typeof(A).GetFields(System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance))
-        //{
-        //    Console.WriteLine(field.Name);
-        //}
-
-        //return;
-
         Startup();
 
         // Main application

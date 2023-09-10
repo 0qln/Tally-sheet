@@ -60,7 +60,10 @@ namespace Tally_sheet
         public ArgumentBase(T val) { Value = val; }
         public abstract void Apply(OptionBase option);
     }
-
+    public class DummyArg : IArgumentWrapper
+    {
+        public void Apply(OptionBase opt) { }
+    }
 
 
     public interface IOptionWrapper

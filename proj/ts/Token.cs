@@ -61,9 +61,9 @@ namespace Tally_sheet
                 var isVal = indicator == VALUE_INDICATOR;
                 if (!isArg && !isVal && !isOpt) continue; 
                 
-                string tokenS = GetInBetween(window, indicator, ' ');              
+                string tokenS = GetInBetween(window, indicator, ' ');
                 if (tokenS == "") continue;
-                
+
                 if (isOpt) commands.Add(tokens.Count);
                 tokens.Add(tokenS);
             }
@@ -75,17 +75,19 @@ namespace Tally_sheet
                 var option = OptionHelper.GenerateOption(opt);
                 List<IArgumentWrapper> args = new();
 
-                string currArg = string.Empty;
-                while (token < (i+1 >= commands.Count ? tokens.Count : commands[i+1]))
+                // we can skip the first token, it's just the option,
+                // not an arg
+                while (++token < (i + 1 >= commands.Count ? tokens.Count : commands[i + 1]))
                 {
-                    bool isVal = tokens[token][^1] == VALUE_INDICATOR;
-                    if (!isVal) currArg = tokens[token];
-                    else
-                    {
-                        var value = tokens[token].Replace(VALUE_INDICATOR.ToString(), "");
-                        args.Add(option.GenerateArgument(currArg, value));
-                    }
-                    ++token;
+                    if (IsVal(tokens[token])) continue;
+
+                    var arg = tokens[token];
+                    bool hasVal = token+1 < tokens.Count && IsVal(tokens[token + 1]);
+                    var val = hasVal 
+                        ? tokens[token + 1].Replace(VALUE_INDICATOR.ToString(), "")
+                        : "";
+
+                    args.Add(option.GenerateArgument(arg, val));
                 }
 
                 result.Add(new Command(option, args.ToArray()));
@@ -93,5 +95,10 @@ namespace Tally_sheet
 
             return result.ToArray();
         }
+
+        
+        private static bool IsVal(string text) => text[^1] == VALUE_INDICATOR;
     }
+
+
 }

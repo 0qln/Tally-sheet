@@ -1,4 +1,5 @@
-﻿using Tally_sheet.Exceptions;
+﻿using Microsoft.VisualBasic;
+using Tally_sheet.Exceptions;
 
 namespace Tally_sheet
 {
@@ -40,6 +41,8 @@ namespace Tally_sheet
         public IArgumentWrapper GenerateArgument(string name, dynamic value) => name.ToLower()[0] switch
         {
             'c' => new ClearArgument(value),
+            'v' => new ValueSortArgument(bool.Parse(value)),
+            'k' => new KeySortArgument(bool.Parse(value)),
 
             _ => throw new ArgumentInvalidException(),
         };
@@ -50,14 +53,45 @@ namespace Tally_sheet
             public override void Apply(OptionBase option) { /* just skip */  }
         }
 
-        public class SortArgument : ArgumentBase<object>
+        public class ValueSortArgument : ArgumentBase<bool>
         {
-            public SortArgument(object val) : base(val) { }
+            public ValueSortArgument(bool ascending) : base(ascending) { }
 
             public override void Apply(OptionBase option)
             {
                 ((ViewOption)option)._mode = delegate
                 {
+                    var keys = Program.Keys.ToArray();
+                    var vals = Program.Values.ToArray();
+                    Array.Sort(vals, keys);
+                    if (Value)
+                    {
+                        Array.Reverse(vals);
+                        Array.Reverse(keys);
+                    }
+                    Program.Keys = keys.ToList();
+                    Program.Values = vals.ToList();
+                };
+            }
+        }
+        public class KeySortArgument : ArgumentBase<bool>
+        {
+            public KeySortArgument(bool ascending) : base(ascending) { }
+
+            public override void Apply(OptionBase option)
+            {
+                ((ViewOption)option)._mode = delegate
+                {
+                    var keys = Program.Keys.ToArray();
+                    var vals = Program.Values.ToArray();
+                    Array.Sort(keys, vals);
+                    if (Value)
+                    {
+                        Array.Reverse(vals);
+                        Array.Reverse(keys);
+                    }
+                    Program.Keys = keys.ToList();
+                    Program.Values = vals.ToList();
                 };
             }
         }
