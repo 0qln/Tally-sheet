@@ -22,8 +22,7 @@ namespace Tally_sheet
             {
                 if (_mode is null) throw new ArgumentNotSetException();
 
-                _mode.Invoke();
-                
+                _mode.Invoke();                
 
                 return 
                     $"{TargetResult} was succesfully executed " +
@@ -44,17 +43,13 @@ namespace Tally_sheet
     /// </summary>
     public partial class EditOption : IOption
     {
-        public IArgumentWrapper GenerateArgument(string name, dynamic value) => name.ToLower() switch
+        // Names have to have a different starting letter
+        public IArgumentWrapper GenerateArgument(string name, dynamic value) => name.ToLower()[0] switch
         {
-            "add" => new AddArgument(value),
-            "remove" => new RemoveArgument(value),
-            "delete" => new DeleteArgument(value),
-            "count" => new CountArgument(int.Parse(value)),
-
-            "a" => GenerateArgument("add", value),
-            "r" => GenerateArgument("remove", value),
-            "d" => GenerateArgument("delete", value),
-            "c" => GenerateArgument("count", value),
+            'a' => new AddArgument(value),
+            'r' => new RemoveArgument(value),
+            'd' => new DeleteArgument(value),
+            'c' => new CountArgument(int.Parse(value)),
 
             _ => throw new ArgumentInvalidException(),
         };

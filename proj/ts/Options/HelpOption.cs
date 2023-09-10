@@ -9,6 +9,7 @@ namespace Tally_sheet
     {
         private const string tab = "    ";
 
+
         public HelpOption() { }
 
 
@@ -21,6 +22,7 @@ namespace Tally_sheet
             sb.AppendLine(@" -[Option]   \[Argument]   '[Value]'    ");
             sb.AppendLine(@"                            ");
             sb.AppendLine(@"e.g: -e \a 'myValue' \m '4' ");
+
             sb.AppendLine(@"                            ");
             sb.AppendLine(@"                            ");
             sb.AppendLine(@" --Options--  ");
@@ -38,11 +40,13 @@ namespace Tally_sheet
                 }
                 sb.AppendLine($"Defaults: ");
                 object instance = Activator.CreateInstance(option);
-                foreach (var field in option.GetFields(BindingFlags.Instance | BindingFlags.NonPublic))
+                foreach (var field in 
+                    option.GetFields().Concat(  //public fields
+                    option.GetFields(BindingFlags.Instance | BindingFlags.NonPublic)))  // private fields
                 {
+                    if (field.Name == "TargetResult") continue;
                     object defaultValue = field.GetValue(instance);
-                    var val = (defaultValue ?? "").ToString();
-                    if (val == "" || val is null) val = "null";
+                    var val = defaultValue is null ? "null" : defaultValue.ToString();
                     sb.AppendLine($"{tab}{field.Name}: {val}");
                 }
 
@@ -52,9 +56,11 @@ namespace Tally_sheet
             
             sb.AppendLine(@"                            ");
             sb.AppendLine(@" --  Value types  --  ");
-            sb.AppendLine(@"boolean:    [true / false / t / f]");
+            sb.AppendLine(@"boolean:    [true / false]");
             sb.AppendLine(@"string:     [value]");
             sb.AppendLine(@"number:     [numeric value]");
+
+
             return sb.ToString();
         }
     }
@@ -66,8 +72,11 @@ namespace Tally_sheet
     /// </summary>
     public partial class HelpOption : IOption
     {
-        public IArgumentWrapper GenerateArgument(string name, dynamic value) => name switch
+        // Names have to have a different starting letter
+        public IArgumentWrapper GenerateArgument(string name, dynamic value) => name.ToLower()[0] switch
         {
+
+
             _ => throw new ArgumentInvalidException(),
         };
     }

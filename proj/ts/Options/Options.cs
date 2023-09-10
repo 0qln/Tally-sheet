@@ -19,21 +19,14 @@ namespace Tally_sheet
         }
      
 
-        public static IOption GenerateOption(string name) => name.ToLower() switch
+        public static IOption GenerateOption(string name) => name.ToLower()[0] switch
         {
-            "quit" => new QuitOption(),
-            "save" => new SaveOption(),
-            "edit" => new EditOption(), 
-            "view" => new ViewOption(),
-            "help" => new HelpOption(),
-            "analyze" => new AnalyzeOption(),
-
-            "q" => GenerateOption("quit"),
-            "s" => GenerateOption("save"),
-            "e" => GenerateOption("edit"),
-            "v" => GenerateOption("view"),
-            "h" => GenerateOption("help"),
-            "a" => GenerateOption("analyze"),
+            'q' => new QuitOption(),
+            's' => new SaveOption(),
+            'e' => new EditOption(), 
+            'v' => new ViewOption(),
+            'h' => new HelpOption(),
+            'a' => new AnalyzeOption(),
 
             _ => throw new OptionInvalidException()
         };

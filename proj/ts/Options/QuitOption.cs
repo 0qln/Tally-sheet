@@ -40,11 +40,14 @@ namespace Tally_sheet
     /// </summary>
     public partial class QuitOption : IOption
     {
-        public IArgumentWrapper GenerateArgument(string name, dynamic value) => name switch
+        // Names have to have a different starting letter
+        public IArgumentWrapper GenerateArgument(string name, dynamic value) => name.ToLower()[0] switch
         {
-            "s" => new SaveArgument(bool.Parse(value)),
+            's' => new SaveArgument(bool.Parse(value)),
+
             _ => throw new ArgumentInvalidException(),
         };
+
 
         public class SaveArgument : ArgumentBase<bool>
         {

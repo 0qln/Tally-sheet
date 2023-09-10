@@ -36,8 +36,11 @@ namespace Tally_sheet
     /// </summary>
     public partial class SaveOption : IOption
     {
-        IArgumentWrapper IOption.GenerateArgument(string name, dynamic value) => name switch
+        // Names have to have a different starting letter
+        public IArgumentWrapper GenerateArgument(string name, dynamic value) => name.ToLower()[0] switch
         {
+
+
             _ => throw new ArgumentInvalidException(),
         };
     }

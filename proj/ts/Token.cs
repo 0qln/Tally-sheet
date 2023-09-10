@@ -82,7 +82,7 @@ namespace Tally_sheet
                     if (!isVal) currArg = tokens[token];
                     else
                     {
-                        var value = tokens[token].Replace("\"", "");
+                        var value = tokens[token].Replace(VALUE_INDICATOR.ToString(), "");
                         args.Add(option.GenerateArgument(currArg, value));
                     }
                     ++token;
