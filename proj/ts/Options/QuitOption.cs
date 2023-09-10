@@ -1,4 +1,6 @@
-﻿namespace Tally_sheet
+﻿using Tally_sheet.Exceptions;
+
+namespace Tally_sheet
 {
     // Object
     public partial class QuitOption : OptionBase
@@ -42,7 +44,7 @@
         public IArgumentWrapper GenerateArgument(string name, dynamic value) => name switch
         {
             "s" => new SaveArgument(bool.Parse(value)),
-            _ => throw new ArgumentException(),
+            _ => throw new ArgumentInvalidException(),
         };
 
         public class SaveArgument : ArgumentBase<bool>

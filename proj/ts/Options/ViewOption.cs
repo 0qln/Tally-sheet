@@ -1,4 +1,6 @@
-﻿namespace Tally_sheet
+﻿using Tally_sheet.Exceptions;
+
+namespace Tally_sheet
 {
     // Object
     public partial class ViewOption : OptionBase
@@ -20,7 +22,7 @@
     {
         public IArgumentWrapper GenerateArgument(string name, dynamic value) => name switch
         {
-            _ => throw new ArgumentException(),
+            _ => throw new ArgumentInvalidException(),
         };
     }
 }

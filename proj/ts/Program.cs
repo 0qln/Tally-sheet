@@ -1,6 +1,5 @@
-﻿
-
-using Tally_sheet;
+﻿using Tally_sheet;
+using Tally_sheet.Exceptions;
 
 public static class Program
 {
@@ -24,6 +23,8 @@ public static class Program
             Console.WriteLine();
             
             OptionHelper.OptionTypes.ToList().ForEach(x =>  Console.Write($"{x.Type.Name} [{x.Abbreviation}] "));
+            Console.Write("\n");
+            Console.WriteLine("[-help] for more information");
             Console.WriteLine("\n");
             
             Console.WriteLine("Result: \n"+lastOutput);

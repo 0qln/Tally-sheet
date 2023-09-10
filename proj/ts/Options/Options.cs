@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static Tally_sheet.EditOption;
-using static Tally_sheet.QuitOption;
+using Tally_sheet.Exceptions;
 
 namespace Tally_sheet
 {
@@ -19,22 +18,23 @@ namespace Tally_sheet
 
      
 
-        public static IOption GenerateOption(string name) => name switch
+        public static IOption GenerateOption(string name) => name.ToLower() switch
         {
             "quit" => QuitOption.Default,
             "save" => SaveOption.Default,
             "edit" => EditOption.Default, 
             "view" => ViewOption.Default,
+            "help" => HelpOption.Default,
             "analyze" => AnalyzeOption.Default,
 
             "q" => GenerateOption("quit"),
             "s" => GenerateOption("save"),
             "e" => GenerateOption("edit"),
             "v" => GenerateOption("view"),
+            "h" => GenerateOption("help"),
             "a" => GenerateOption("analyze"),
 
-
-            _ => throw new ArgumentException()
+            _ => throw new OptionInvalidException()
         };
     }
 

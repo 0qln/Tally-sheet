@@ -1,4 +1,6 @@
-﻿namespace Tally_sheet
+﻿using Tally_sheet.Exceptions;
+
+namespace Tally_sheet
 {
     // Object logic
     public partial class EditOption : OptionBase
@@ -42,13 +44,19 @@
     /// </summary>
     public partial class EditOption : IOption
     {
-        public IArgumentWrapper GenerateArgument(string name, dynamic value) => name switch
+        public IArgumentWrapper GenerateArgument(string name, dynamic value) => name.ToLower() switch
         {
-            "a" => new AddArgument(value),
-            "r" => new RemoveArgument(value),
-            "d" => new DeleteArgument(value),
-            "c" => new CountArgument(int.Parse(value)),
-            _ => throw new ArgumentException(),
+            "add" => new AddArgument(value),
+            "remove" => new RemoveArgument(value),
+            "delete" => new DeleteArgument(value),
+            "count" => new CountArgument(int.Parse(value)),
+
+            "a" => GenerateArgument("add", value),
+            "r" => GenerateArgument("remove", value),
+            "d" => GenerateArgument("delete", value),
+            "c" => GenerateArgument("count", value),
+
+            _ => throw new ArgumentInvalidException(),
         };
 
         /// <summary>
@@ -61,14 +69,12 @@
             public override void Apply(OptionBase option)
             {
                 ((EditOption)option)._mode = delegate {
-                    if (Program.Values.ContainsKey(Value))
-                    {
+                    if (Program.Values.ContainsKey(Value))                    
                         Program.Values[Value] += ((EditOption)option)._count;
-                    }
-                    else
-                    {
+                    
+                    else                    
                         Program.Values.Add(Value, ((EditOption)option)._count);
-                    }
+                    
                 };
                 option.TargetResult = "Addition";
             }
@@ -84,14 +90,12 @@
             {
                 ((EditOption)option)._mode = delegate {
                     if (Program.Values.ContainsKey(Value) &&
-                        Program.Values[Value] >= ((EditOption)option)._count)
-                    {
+                        Program.Values[Value] >= ((EditOption)option)._count)                    
                         Program.Values[Value] -= ((EditOption)option)._count;
-                    }
-                    if (Program.Values[Value] == 0)
-                    {
+                    
+                    if (Program.Values[Value] == 0)                    
                         Program.Values.Remove(Value);
-                    }
+                    
                 };
                 option.TargetResult = "Removal";
             }

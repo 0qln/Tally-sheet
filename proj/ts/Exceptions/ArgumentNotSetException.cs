@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tally_sheet
+namespace Tally_sheet.Exceptions
 {
     internal class ArgumentNotSetException : Exception
     {
