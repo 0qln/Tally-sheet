@@ -1,71 +1,40 @@
 ﻿
 
-public static class Programm
+using Tally_sheet;
+
+public static class Program
 {
-    private static Dictionary<string, int> _values = new();
+    public static Dictionary<string, int> Values { get; private set; } = new();
     private static readonly string AppData = Path.Combine(Environment.GetFolderPath(
-    Environment.SpecialFolder.ApplicationData), "Tally sheet");
-    private static string _file = string.Empty;
+        Environment.SpecialFolder.ApplicationData), "Tally sheet");
+    public static string File { get; private set; } = string.Empty;
 
     public static void Main(string[] args)
     {
-        Init();
+        Startup();
 
+        // Main application
+        string lastOutput = string.Empty;
         do
         {
             Console.Clear();
-            Console.WriteLine(_file);
+            Console.WriteLine(File);
             PrintValues();
-            Console.WriteLine("\nquit | save | +{value} | -{value}");
-
+            Console.WriteLine();
+            OptionHelper.OptionTypes.ToList().ForEach(x =>  Console.Write($"{x.Type.Name} [{x.Abbreviation}] "));
+            Console.WriteLine();
+            Console.WriteLine("Result: "+lastOutput);
+            Console.WriteLine();
             var userInput = Console.ReadLine();
-            bool quit = false;
-            switch (userInput)
+            foreach (var command in TokenAssembler.GetCommands(userInput))
             {
-                case "quit": quit = true; break;
-                case "save": Save(); break;
-                case null: case "": continue;
-                default: HandleUserInput(userInput); break;
+                lastOutput = command.Execute();
             }
-            if (quit) break;
         }
         while (true);
     }
 
-    private static void HandleUserInput(string userInput)
-    {
-        var value = userInput.Substring(1, userInput.Length - 1);
-        var mode = userInput[0];
-        if (mode == '+')
-        {
-            if (_values.ContainsKey(value))
-                _values[value]++;
-            else
-                _values.Add(value, 1);
-            
-        }
-        if (mode == '-')
-        {
-            if (_values.ContainsKey(value))
-            {
-                _values[value]--;
-                if (_values[value] == 0) 
-                    _values.Remove(value);               
-            }
-        }
-    }
-
-    private static void Save()
-    {
-        var content = new List<string>();
-        foreach (var keyValuePair  in _values)
-        {
-            content.Add($"{keyValuePair.Key} {keyValuePair.Value}");
-        }
-        File.WriteAllLines(_file, content);
-    }
-
-    private static void Init()
+    private static void Startup()
     {
         if (!Directory.Exists(AppData))
             Directory.CreateDirectory(AppData);
@@ -76,24 +45,24 @@ public static class Programm
 
     private static void InitDict()
     {
-        if (File.Exists(_file))
+        if (System.IO.File.Exists(File))
         {
-            var lines = File.ReadAllLines(_file);
+            var lines = System.IO.File.ReadAllLines(File);
 
-            _values = new Dictionary<string, int>(lines.Length);
+            Values = new Dictionary<string, int>(lines.Length);
             foreach (var line in lines)
             {
                 var key = Word(line);
                 var value = Count(line);
-                if (_values.ContainsKey(key)) _values[key] += value;
-                else _values.Add(key, value);
+                if (Values.ContainsKey(key)) Values[key] += value;
+                else Values.Add(key, value);
             }
         }
         else
         {
 
-            using var _ = File.Create(_file);
-            _values = new Dictionary<string, int>();
+            using var _ = System.IO.File.Create(File);
+            Values = new Dictionary<string, int>();
         }
     }
 
@@ -118,7 +87,7 @@ public static class Programm
             }
 
             selected = Math.Clamp(selected, 0, count - 1);
-            _file = s;
+            File = s;
         }
         while (!quit);
     }
@@ -208,11 +177,11 @@ public static class Programm
 
     private static void PrintValues(int selected = -1)
     {
-        if (_values.Count == 0) return;
+        if (Values.Count == 0) return;
 
-        int maxValueWidith = _values.Max(x => x.ToString().Length);
+        int maxValueWidith = Values.Max(x => x.ToString().Length);
         int i = -1;
-        foreach (var item in _values)
+        foreach (var item in Values)
         {
             if (++i == selected) Console.Write(" > ");
             Console.WriteLine($"{item.Key.ToString().PadRight(maxValueWidith)} {item.Value}");
