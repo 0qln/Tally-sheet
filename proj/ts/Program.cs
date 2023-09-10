@@ -19,16 +19,31 @@ public static class Program
         {
             Console.Clear();
             Console.WriteLine(File);
+            
             PrintValues();
             Console.WriteLine();
+            
             OptionHelper.OptionTypes.ToList().ForEach(x =>  Console.Write($"{x.Type.Name} [{x.Abbreviation}] "));
+            Console.WriteLine("\n");
+            
+            Console.WriteLine("Result: \n"+lastOutput);
             Console.WriteLine();
-            Console.WriteLine("Result: "+lastOutput);
-            Console.WriteLine();
+
+            lastOutput = string.Empty;
             var userInput = Console.ReadLine();
-            foreach (var command in TokenAssembler.GetCommands(userInput))
+            try
             {
-                lastOutput = command.Execute();
+                var commands = TokenAssembler.GetCommands(userInput).ToList();
+
+                if (commands is null || commands.Count() == 0) 
+                    throw new UnrecognisedCommandException();
+
+                foreach (var command in commands)
+                    lastOutput += command.Execute() + "\n";
+            }
+            catch (Exception e)
+            {
+                lastOutput = $"Error: {e}";
             }
         }
         while (true);

@@ -9,7 +9,7 @@ namespace Tally_sheet
     internal class ArgumentNotSetException : Exception
     {
         public ArgumentNotSetException()
-            : base("Some argument of an option had to be set in order" +
+            : base("Some argument of an option had to be set " +
                   "for this command to execute.")
         {
         }

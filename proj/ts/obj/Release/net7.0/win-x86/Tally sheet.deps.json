@@ -17,7 +17,19 @@
       },
       "runtimepack.Microsoft.NETCore.App.Runtime.win-x86/7.0.10": {
         "runtime": {
+          "Microsoft.CSharp.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.1023.36312"
+          },
+          "System.Collections.Concurrent.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.1023.36312"
+          },
           "System.Collections.Immutable.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.1023.36312"
+          },
+          "System.Collections.dll": {
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.0.1023.36312"
           },
@@ -34,6 +46,10 @@
             "fileVersion": "7.0.1023.36312"
           },
           "System.IO.MemoryMappedFiles.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.1023.36312"
+          },
+          "System.Linq.Expressions.dll": {
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.0.1023.36312"
           },

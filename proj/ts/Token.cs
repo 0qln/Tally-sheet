@@ -37,9 +37,13 @@ namespace Tally_sheet
             return text.Substring(startIdx, endIdx - startIdx);
         }
 
-        public static IEnumerable<Command> GetCommands(string? userInput)
+        public static Command[] GetCommands(string? userInput)
         {
-            userInput ??= "";
+            List<Command> result = new List<Command>();
+
+            if (string.IsNullOrEmpty(userInput) ||
+                string.IsNullOrWhiteSpace(userInput))
+                return result.ToArray();
 
             int token;
             userInput = NormalizeWhiteSpace (userInput);
@@ -84,8 +88,10 @@ namespace Tally_sheet
                     ++token;
                 }
 
-                yield return new Command(option, args.ToArray());
+                result.Add(new Command(option, args.ToArray()));
             }
+
+            return result.ToArray();
         }
     }
 }

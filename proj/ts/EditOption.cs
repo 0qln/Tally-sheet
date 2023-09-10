@@ -20,10 +20,8 @@
             {
                 if (_mode is null) throw new ArgumentNotSetException();
 
-                for (int i = 0; i < _count; i++)
-                {
-                    _mode.Invoke();
-                }
+                _mode.Invoke();
+                
 
                 return 
                     $"{TargetResult} was succesfully executed " +
@@ -47,9 +45,9 @@
         public IArgumentWrapper GenerateArgument(string name, dynamic value) => name switch
         {
             "a" => new AddArgument(value),
-            "r" => new AddArgument(value),
-            "d" => new AddArgument(value),
-            "m" => new MultiArgument(int.Parse(value)),
+            "r" => new RemoveArgument(value),
+            "d" => new DeleteArgument(value),
+            "c" => new CountArgument(int.Parse(value)),
             _ => throw new ArgumentException(),
         };
 
@@ -69,7 +67,7 @@
                     }
                     else
                     {
-                        Program.Values.Add(Value, 1);
+                        Program.Values.Add(Value, ((EditOption)option)._count);
                     }
                 };
                 option.TargetResult = "Addition";
@@ -85,7 +83,15 @@
             public override void Apply(OptionBase option)
             {
                 ((EditOption)option)._mode = delegate {
-                    Program.Values[Value] -= ((EditOption)option)._count;
+                    if (Program.Values.ContainsKey(Value) &&
+                        Program.Values[Value] >= ((EditOption)option)._count)
+                    {
+                        Program.Values[Value] -= ((EditOption)option)._count;
+                    }
+                    if (Program.Values[Value] == 0)
+                    {
+                        Program.Values.Remove(Value);
+                    }
                 };
                 option.TargetResult = "Removal";
             }
@@ -108,9 +114,9 @@
         /// <summary>
         /// Multiply the action given times
         /// </summary>
-        public class MultiArgument : ArgumentBase<int>
+        public class CountArgument : ArgumentBase<int>
         {
-            public MultiArgument(int val) : base(val) { }
+            public CountArgument(int val) : base(val) { }
 
             public override void Apply(OptionBase option)
             {
