@@ -1,6 +1,22 @@
 ﻿using Tally_sheet;
 using Tally_sheet.Exceptions;
 
+class A
+{
+    public int num1;
+    public int num2;
+
+    private int _num3;
+
+    public A()
+    {
+        num1 = 1;
+        num2 = 2;
+
+        _num3 = 3;
+    }
+}
+
 public static class Program
 {
     public static Dictionary<string, int> Values { get; private set; } = new();
@@ -10,6 +26,13 @@ public static class Program
 
     public static void Main(string[] args)
     {
+        //foreach (var field in typeof(A).GetFields(System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance))
+        //{
+        //    Console.WriteLine(field.Name);
+        //}
+
+        //return;
+
         Startup();
 
         // Main application
@@ -21,13 +44,10 @@ public static class Program
             
             PrintValues();
             Console.WriteLine();
-            
-            OptionHelper.OptionTypes.ToList().ForEach(x =>  Console.Write($"{x.Type.Name} [{x.Abbreviation}] "));
-            Console.Write("\n");
-            Console.WriteLine("[-help] for more information");
+            Console.WriteLine("type '-help' for more information");
             Console.WriteLine("\n");
             
-            Console.WriteLine("Result: \n"+lastOutput);
+            Console.WriteLine("\n"+lastOutput);
             Console.WriteLine();
 
             lastOutput = string.Empty;

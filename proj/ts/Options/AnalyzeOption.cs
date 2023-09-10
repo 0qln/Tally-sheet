@@ -5,8 +5,7 @@ namespace Tally_sheet
     public partial class AnalyzeOption : OptionBase
     {
 
-        private AnalyzeOption() { }
-        public static AnalyzeOption Default => new AnalyzeOption();
+        public AnalyzeOption() { }
 
 
         public override string Execute()

@@ -5,10 +5,9 @@ namespace Tally_sheet
     // Object
     public partial class SaveOption : OptionBase
     {
-        private SaveOption()
+        public SaveOption()
         {
         }
-        public static SaveOption Default => new SaveOption();
 
 
         public override string Execute()

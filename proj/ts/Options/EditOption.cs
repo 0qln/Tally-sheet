@@ -8,12 +8,12 @@ namespace Tally_sheet
         private Action? _mode;
         private int _count;
 
-        private EditOption()
+
+        public EditOption()
         {
             _count = 1;
             _mode = null;
         }
-        public static EditOption Default => new EditOption();
 
 
         public override string Execute()

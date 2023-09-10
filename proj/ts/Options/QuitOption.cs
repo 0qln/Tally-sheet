@@ -7,11 +7,10 @@ namespace Tally_sheet
     {
         private bool _quitSavely;
 
-        private QuitOption()
+        public QuitOption()
         {
             _quitSavely = true;
         }
-        public static QuitOption Default => new QuitOption();
 
 
         public override string Execute()
@@ -20,7 +19,7 @@ namespace Tally_sheet
             {
                 if (_quitSavely)
                 {
-                    SaveOption.Default.Execute();
+                    new SaveOption().Execute();
                 }
 
                 Environment.Exit(0);

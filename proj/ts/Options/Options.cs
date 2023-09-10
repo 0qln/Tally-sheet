@@ -7,25 +7,26 @@ using Tally_sheet.Exceptions;
 
 namespace Tally_sheet
 {
-    public record class OptionType(Type Type, string Abbreviation);
-
     public static class OptionHelper
     {
-        public static IEnumerable<OptionType> OptionTypes => AppDomain.CurrentDomain.GetAssemblies()
+        public static IEnumerable<Type> OptionTypes => AppDomain.CurrentDomain.GetAssemblies()
             .SelectMany(a => a.GetTypes())
-            .Where(t => typeof(IOption).IsAssignableFrom(t) && !t.IsInterface && !t.IsAbstract)
-            .Select(x => new OptionType(x, x.Name.ToLower()[0].ToString()));
+            .Where(t => typeof(IOption).IsAssignableFrom(t) && !t.IsInterface && !t.IsAbstract);
 
+        public static IEnumerable<Type> OptionArguments(Type option)
+        {
+            return option.GetNestedTypes();
+        }
      
 
         public static IOption GenerateOption(string name) => name.ToLower() switch
         {
-            "quit" => QuitOption.Default,
-            "save" => SaveOption.Default,
-            "edit" => EditOption.Default, 
-            "view" => ViewOption.Default,
-            "help" => HelpOption.Default,
-            "analyze" => AnalyzeOption.Default,
+            "quit" => new QuitOption(),
+            "save" => new SaveOption(),
+            "edit" => new EditOption(), 
+            "view" => new ViewOption(),
+            "help" => new HelpOption(),
+            "analyze" => new AnalyzeOption(),
 
             "q" => GenerateOption("quit"),
             "s" => GenerateOption("save"),
@@ -71,7 +72,6 @@ namespace Tally_sheet
 
     public interface IOptionWrapper
     {
-        public static IOptionWrapper? Default { get; }
     }
     public interface IOption : IOptionWrapper
     {

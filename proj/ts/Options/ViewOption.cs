@@ -5,8 +5,8 @@ namespace Tally_sheet
     // Object
     public partial class ViewOption : OptionBase
     {
-        private ViewOption() { }
-        public static ViewOption Default => new ViewOption();
+        public ViewOption() { }
+
 
         public override string Execute()
         {

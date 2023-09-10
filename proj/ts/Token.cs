@@ -18,7 +18,7 @@ namespace Tally_sheet
     {
         public const char OPTION_INDICATOR = '-';
         public const char ARGUMENT_INDICATOR = '\\';
-        public const char VALUE_INDICATOR = '"';
+        public const char VALUE_INDICATOR = '\'';
 
         public static string NormalizeWhiteSpace(string text)
         {
