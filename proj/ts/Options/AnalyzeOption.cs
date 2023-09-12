@@ -4,8 +4,12 @@ namespace Tally_sheet
 {
     public partial class AnalyzeOption : OptionBase
     {
+        private decimal _relativeProb;
 
-        public AnalyzeOption() { }
+        public AnalyzeOption()
+        {
+            _relativeProb = -1;
+        }
 
 
         public override string Execute()
@@ -27,5 +31,17 @@ namespace Tally_sheet
 
             _ => throw new ArgumentInvalidException(),
         };
+
+
+        // calculate the relative prob of a given entry
+        public class RelativeProbabilityArgument : ArgumentBase<string>
+        {
+            public RelativeProbabilityArgument(string name) : base(name) { }
+
+            public override void Apply(OptionBase option)
+            {
+                //((AnalyzeOption)option)._relativeProb = 
+            }
+        }
     }
 }

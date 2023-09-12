@@ -1,9 +1,19 @@
-﻿using Tally_sheet;
+﻿using System.Text;
+using Tally_sheet;
 using Tally_sheet.Exceptions;
 
 
 public static class Program
 {
+    // Console.Clear() does not clear the whole console, only the
+    // visible buffer area.
+    public static void ClearConsole()
+    {
+        // Can't do anything about it. It cannot the clear the scrollback-buffer
+        // of the embedding terminal. 
+        Console.Clear();
+    }
+
     public static List<string> Keys { get; set; } = new();
     public static List<int> Values { get; set; } = new();
     private static readonly string AppData = Path.Combine(Environment.GetFolderPath(
@@ -16,11 +26,12 @@ public static class Program
 
         Startup();
 
+
         // Main application
         string lastOutput = string.Empty;
         do
         {
-            Console.Clear();
+            ClearConsole();
             Console.WriteLine(File);
             
             PrintValues();
